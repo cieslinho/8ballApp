@@ -54,6 +54,7 @@ body {
 }
 
 .magicball-box .info h1 {
+  letter-spacing: 3px;
   margin-bottom: 0.25em;
 }
 
@@ -69,13 +70,13 @@ body {
 }
 
 .img-box img {
-  position: absolute;
   top: 0;
-  left: 50%;
+  right: 50%;
+  position: absolute;
   max-width: 250px;
   cursor: pointer;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+  -webkit-transform: translateX(50%);
+          transform: translateX(50%);
 }
 
 .question-area {
@@ -147,43 +148,43 @@ body {
 
 @-webkit-keyframes shake {
   0% {
-    left: 290px;
+    right: 200px;
   }
   20% {
-    left: 340px;
+    right: 250px;
   }
   40% {
-    left: 290px;
+    right: 200px;
   }
   60% {
-    left: 340px;
+    right: 250px;
   }
   80% {
-    left: 290px;
+    right: 200px;
   }
   100% {
-    left: 300px;
+    right: 250px;
   }
 }
 
 @keyframes shake {
   0% {
-    left: 290px;
+    right: 200px;
   }
   20% {
-    left: 340px;
+    right: 250px;
   }
   40% {
-    left: 290px;
+    right: 200px;
   }
   60% {
-    left: 340px;
+    right: 250px;
   }
   80% {
-    left: 290px;
+    right: 200px;
   }
   100% {
-    left: 300px;
+    right: 250px;
   }
 }
 /*# sourceMappingURL=style.css.map */

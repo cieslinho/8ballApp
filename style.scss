@@ -39,6 +39,7 @@ body {
 
 	.info {
 		h1 {
+			letter-spacing: 3px;
 			margin-bottom: 0.25em;
 		}
 		p {
@@ -53,12 +54,12 @@ body {
 	height: 250px;
 	margin-bottom: 1em;
 	img {
-		position: absolute;
 		top: 0;
-		left: 50%;
+		right: 50%;
+		position: absolute;
 		max-width: 250px;
 		cursor: pointer;
-		transform: translateX(-50%);
+		transform: translateX(50%);
 	}
 }
 .question-area {
@@ -108,22 +109,22 @@ body {
 }
 @keyframes shake {
 	0% {
-		left: 290px;
+		right: 200px;
 	}
 
 	20% {
-		left: 340px;
+		right: 250px;
 	}
 	40% {
-		left: 290px;
+		right: 200px;
 	}
 	60% {
-		left: 340px;
+		right: 250px;
 	}
 	80% {
-		left: 290px;
+		right: 200px;
 	}
 	100% {
-		left: 300px;
+		right: 250px;
 	}
 }
